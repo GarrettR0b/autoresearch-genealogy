@@ -19,7 +19,7 @@ This project extracts and generalizes methods developed during a real genealogy 
 5. Open Codex in your genealogy vault directory, paste the contents of `prompts/01-tree-expansion.md`, and run it as the task instruction
 6. Review the results, then run `prompts/02-cross-reference-audit.md` to verify
 
-See `workflows/getting-started.md` for the full walkthrough, `AGENTS.md` for agent rules, and `CODEX_MIGRATION_PLAN.md` for the concrete migration checklist.
+See `workflows/getting-started.md` for the full walkthrough, `workflows/getting-started-ru.md` for a full Russian walkthrough, `AGENTS.md` for agent rules, and `CODEX_MIGRATION_PLAN.md` for the concrete migration checklist.
 
 ## What's Included
 
@@ -67,7 +67,7 @@ See `workflows/getting-started.md` for the full walkthrough, `AGENTS.md` for age
 
 ### Workflows (`workflows/`)
 
-7 step-by-step guides: getting started, OCR pipeline, new ancestor intake, document triage, oral history protocol, discrepancy resolution, phase planning.
+8 step-by-step guides: getting started, getting started in Russian, OCR pipeline, new ancestor intake, document triage, oral history protocol, discrepancy resolution, phase planning.
 
 ### Examples (`examples/`)
 
