@@ -1,8 +1,8 @@
 # autoresearch-genealogy
 
-Structured prompts, vault templates, and research workflows for AI-assisted genealogy research. Built for Claude Code, adaptable to any AI tool or manual workflow.
+Structured prompts, vault templates, and research workflows for AI-assisted genealogy research. Optimized for Codex, adaptable to other AI tools or manual workflow.
 
-This project extracts and generalizes methods developed during a real genealogy research effort that produced 105 files spanning 9 generations across 6 family lines, using Claude Code's autonomous research capabilities.
+This project extracts and generalizes methods developed during a real genealogy research effort that produced 105 files spanning 9 generations across 6 family lines, using autonomous research capabilities with careful source verification.
 
 ## Who This Is For
 
@@ -16,16 +16,16 @@ This project extracts and generalizes methods developed during a real genealogy 
 2. Copy the `vault-template/` folder into your Obsidian vault (or any markdown editor)
 3. Fill in `Family_Tree.md` with what you already know (start with yourself, work backward)
 4. Scan any physical documents you have (certificates, photos, letters)
-5. Open Claude Code, paste the contents of `prompts/01-tree-expansion.md`, and run it
+5. Open Codex in your genealogy vault directory, paste the contents of `prompts/01-tree-expansion.md`, and run it as the task instruction
 6. Review the results, then run `prompts/02-cross-reference-audit.md` to verify
 
-See `workflows/getting-started.md` for the full walkthrough.
+See `workflows/getting-started.md` for the full walkthrough, `AGENTS.md` for agent rules, and `CODEX_MIGRATION_PLAN.md` for the concrete migration checklist.
 
 ## What's Included
 
 ### Prompts (`prompts/`)
 
-12 autoresearch prompts designed for Claude Code's `/autoresearch` command. Each defines a Goal, Metric, Direction, Verify condition, Guard rails, Iterations, and Protocol. They run autonomously: searching the web, updating your vault, and verifying their own work.
+12 autoresearch prompts designed for Codex-style autonomous research loops. Each defines a Goal, Metric, Direction, Verify condition, Guard rails, Iterations, and Protocol. They run autonomously: searching the web, updating your vault, and verifying their own work.
 
 | Prompt | Purpose |
 |---|---|

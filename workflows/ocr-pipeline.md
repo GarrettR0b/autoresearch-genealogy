@@ -18,7 +18,7 @@ The pipeline follows four stages:
 | Tesseract 5.x | Open-source OCR engine for printed text | `brew install tesseract` (macOS) or `apt install tesseract-ocr` (Linux) |
 | ocrmypdf | Adds OCR text layer to PDFs | `pip install ocrmypdf` |
 | ImageMagick | Image preprocessing (contrast, rotation, cropping) | `brew install imagemagick` |
-| Claude (multimodal) | Reading handwritten text, old scripts, damaged documents | Built into Claude Code |
+| Multimodal AI assistant | Reading handwritten text, old scripts, damaged documents | Use your preferred multimodal tool |
 
 ## Stage 1: Scan
 
@@ -42,8 +42,8 @@ Sort every scanned file into one of four categories:
 | Category | Examples | OCR Method |
 |---|---|---|
 | **Printed text** | Certificates, diplomas, newspaper clippings, typed letters | Tesseract (ocrmypdf) |
-| **Handwritten** | Record books, personal letters, funeral notes, genealogical charts | Claude multimodal |
-| **Mixed** | Postcards (printed front, handwritten back), annotated documents | Layered: Tesseract for printed portions, Claude for handwritten |
+| **Handwritten** | Record books, personal letters, funeral notes, genealogical charts | Multimodal AI assistant |
+| **Mixed** | Postcards (printed front, handwritten back), annotated documents | Layered: Tesseract for printed portions, multimodal AI assistant for handwritten |
 | **Photo only** | Portraits, group photos, buildings, landscapes | No OCR; catalog metadata only |
 
 ## Stage 3: OCR and Transcribe
@@ -82,19 +82,19 @@ convert input.jpg -colorspace Gray -normalize -sharpen 0x1 preprocessed.jpg
 tesseract preprocessed.jpg output_text
 ```
 
-### Handwritten Text (Claude Multimodal)
+### Handwritten Text (Multimodal AI Assistant)
 
 For handwritten documents, old scripts (German Kurrent, Fraktur), or damaged text that Tesseract cannot handle:
 
-1. Open Claude Code
-2. Ask Claude to read the image directly:
+1. Open your multimodal AI tool
+2. Ask the model to read the image directly:
    ```
    Read the file at ~/Files/Genealogy/Collection/handwritten_record.jpg and transcribe
    all text you can see. Mark illegible portions with [unclear]. This is a [type of
    document] from approximately [date] in [language].
    ```
 
-Claude's multimodal capabilities are often better than Tesseract for:
+Multimodal models are often better than Tesseract for:
 - Handwritten text in any language
 - Faded or damaged documents
 - Old printing styles (blackletter, Fraktur)
@@ -104,7 +104,7 @@ Claude's multimodal capabilities are often better than Tesseract for:
 
 For postcards and annotated documents:
 1. Run Tesseract on the full image to capture printed text
-2. Use Claude multimodal to read the handwritten portions
+2. Use a multimodal AI assistant to read the handwritten portions
 3. Combine the results in the transcription note
 
 ## Stage 4: Synthesize
@@ -125,7 +125,7 @@ Grade every OCR result:
 |---|---|---|
 | **Good** | Text is fully readable and extractable | Proceed to fact extraction |
 | **Partial** | Some text readable, gaps or errors present | Note gaps with [unclear]; extract what is available |
-| **Bad** | Most text unreadable or garbled | Re-OCR with Claude multimodal; if still bad, flag for human review |
+| **Bad** | Most text unreadable or garbled | Re-OCR with a multimodal AI assistant; if still bad, flag for human review |
 | **Photo-Only** | No text to OCR | Catalog metadata (who, when, where) in a note |
 
 ### Quality Audit
@@ -136,7 +136,7 @@ After processing a batch of documents, create an audit file:
 | File | Category | OCR Method | Quality | Vault Note |
 |---|---|---|---|---|
 | certificate_001.jpg | printed | tesseract | Good | [[Transcription_Certificate_001]] |
-| letter_002.jpg | handwritten | claude | Partial | [[Transcription_Letter_002]] |
+| letter_002.jpg | handwritten | multimodal_ai | Partial | [[Transcription_Letter_002]] |
 | photo_003.jpg | photo_only | none | N/A | cataloged in photo index |
 ```
 
@@ -155,6 +155,6 @@ Photos do not need OCR but should be cataloged:
 
 - **Batch processing**: Process documents in groups by family line or document type, not one at a time
 - **Save raw OCR output**: Keep the raw text files even after creating vault notes; they are useful for searching
-- **Foreign language documents**: Install Tesseract language packs for the languages in your family's records. For languages Tesseract does not support well (e.g., old Norwegian, Polish with diacritics), use Claude multimodal
-- **Parallel processing with AI**: If using Claude Code, you can ask it to process multiple documents concurrently using agents. For a large batch, this is significantly faster than sequential processing
-- **When in doubt, use Claude**: If Tesseract produces garbage, do not spend time tweaking parameters. Send the image to Claude multimodal instead. The quality difference on handwritten and historical documents is usually dramatic.
+- **Foreign language documents**: Install Tesseract language packs for the languages in your family's records. For languages Tesseract does not support well (e.g., old Norwegian, Polish with diacritics), use a multimodal AI assistant
+- **Parallel processing with AI**: If your AI tool supports concurrency or agent orchestration, process multiple documents in parallel for large batches
+- **When in doubt, use multimodal OCR**: If Tesseract output is poor, do not over-tune parameters. Send the image to a multimodal AI assistant instead.

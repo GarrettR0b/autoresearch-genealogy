@@ -25,10 +25,10 @@ Examine each scanned document and classify it:
 | Clearly printed English text | Tesseract (ocrmypdf) |
 | Clearly printed non-English text | Tesseract with language pack |
 | Typed/typewritten text | Tesseract |
-| Handwritten (any language) | Claude multimodal |
-| Old printing (Fraktur, blackletter) | Claude multimodal |
-| Mixed printed + handwritten | Layered (Tesseract + Claude) |
-| Faded, damaged, or stained | Preprocess with ImageMagick, then Claude multimodal |
+| Handwritten (any language) | Multimodal AI assistant |
+| Old printing (Fraktur, blackletter) | Multimodal AI assistant |
+| Mixed printed + handwritten | Layered (Tesseract + multimodal AI assistant) |
+| Faded, damaged, or stained | Preprocess with ImageMagick, then multimodal AI assistant |
 | Photograph with no text | No OCR; catalog only |
 
 ## Step 3: Process in Priority Order

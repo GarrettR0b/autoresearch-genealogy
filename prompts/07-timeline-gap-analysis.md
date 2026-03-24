@@ -13,6 +13,8 @@ Identify gaps in your family timeline where records should exist but have not be
 **Verify**: Count entries in `[VAULT_PATH]/timeline_gaps.md` with status OPEN.
 
 **Guard**:
+- Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
+- If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
 - Not every gap has a findable record. Some records were destroyed, never created, or are not yet digitized.
 - Do not fill gaps with speculative data. Only add records actually found.
 

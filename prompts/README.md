@@ -1,13 +1,14 @@
 # Prompts
 
-Autoresearch prompts for AI-assisted genealogy research. Designed for Claude Code's `/autoresearch` command but adaptable to any AI tool that supports autonomous iteration.
+Autoresearch prompts for AI-assisted genealogy research. Designed for Codex-style autonomous iteration, but adaptable to any AI tool that supports web research, file editing, and verification loops.
 
 ## How to Use
 
-1. Open Claude Code in your genealogy vault directory
-2. Type `/autoresearch` and paste the contents of a prompt file
+1. Open Codex in your genealogy vault directory
+2. Paste the contents of a prompt file as the task instruction
 3. Replace all `[PLACEHOLDER]` values with your actual data
-4. The AI will run autonomously for the specified number of iterations
+4. Tell the agent to update the vault and research log, but only when the source evidence supports the change
+5. Let the AI run for the specified number of iterations
 
 ## Prompt Anatomy
 
@@ -56,3 +57,13 @@ All prompts use these placeholders. Replace them with your actual data before ru
 - `[DATE]` — A date or date range (e.g., "1866" or "1880-1920")
 - `[VAULT_PATH]` — The path to your vault (e.g., `~/Vaults/MyVault/Genealogy/`)
 - `[GEDCOM_PATH]` — The path to your GEDCOM file
+
+## Mandatory Evidence Discipline
+
+These rules are mandatory for every prompt in this folder:
+
+- Write only what is explicitly supported by the source text or by a clearly labeled inference from multiple sources.
+- Do not invent names, dates, places, relationships, or document contents to complete a narrative.
+- If two sources disagree, do not smooth the disagreement away. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If the evidence is incomplete, say that the evidence is incomplete. Use concise, dry wording.
+- Prefer direct extraction and structured comparison over storytelling.
