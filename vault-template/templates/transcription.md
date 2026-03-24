@@ -6,7 +6,7 @@ person: "[Name1], [Name2]"
 date: YYYY-MM-DD
 created: YYYY-MM-DD
 tags: [genealogy, surname, transcription, document_type]
-ocr_method: "[tesseract | claude_multimodal | manual]"
+ocr_method: "[tesseract | multimodal_ai | manual]"
 ocr_quality: "[good | partial | bad]"
 ---
 

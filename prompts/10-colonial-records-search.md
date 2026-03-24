@@ -13,6 +13,9 @@ Search for colonial American ancestors in pre-1800 records.
 **Verify**: Count persons in Family_Tree.md with dates before 1800 who have entries in their Document Sources section.
 
 **Guard**:
+- Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
+- If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If evidence is missing, say that it is missing.
 - Colonial records are fragmentary. Many have been lost to fire, war, or neglect.
 - Do not confuse similarly named individuals. Colonial naming conventions often reused names across generations within a family.
 - Be cautious with compiled genealogies and lineage society applications; they sometimes contain errors that have been perpetuated for decades.

@@ -13,6 +13,9 @@ Extract genealogical data from digitized local history books (bygdeboker, county
 **Verify**: Count new entries added to person files, Family_Tree.md, or Research_Log.md during this session.
 
 **Guard**:
+- Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
+- If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If evidence is missing, say that it is missing.
 - Local histories are secondary sources. Cross-reference any extracted data with primary records before treating it as established.
 - When extracting from non-English sources, note the original language text alongside the translation.
 - Patronymic and farm name conventions vary by region and era. Do not assume modern surname conventions apply to historical records.

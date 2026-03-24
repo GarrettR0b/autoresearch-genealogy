@@ -13,6 +13,9 @@ Find and fix every date, name, and place discrepancy between your family tree an
 **Verify**: `grep -c "DISCREPANCY\|MISMATCH\|CONFLICT" [VAULT_PATH]/cross_reference_audit.md`
 
 **Guard**:
+- Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
+- If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If evidence is missing, say that it is missing.
 - When sources conflict, use this hierarchy: primary documents (certificates, vital records) > secondary sources (newspapers, published genealogies) > tertiary sources (family trees, oral history, photo captions)
 - Do not silently choose one version. Document every discrepancy in the audit file.
 - Do not change primary source transcriptions to match the family tree. If they disagree, the family tree is more likely wrong.

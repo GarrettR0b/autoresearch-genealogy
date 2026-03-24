@@ -13,6 +13,9 @@ Ensure every person in your family tree exists in your GEDCOM file with all know
 **Verify**: `grep -c "MISSING\|INCOMPLETE" [VAULT_PATH]/gedcom_audit.md`
 
 **Guard**:
+- Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
+- If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If evidence is missing, say that it is missing.
 - Use GEDCOM 5.5.1 format (the most widely supported version)
 - Do not include living persons' full birth dates in the GEDCOM (privacy). Use birth year only or mark as "Living."
 - Preserve existing GEDCOM data; do not overwrite entries that already exist unless they are demonstrably wrong

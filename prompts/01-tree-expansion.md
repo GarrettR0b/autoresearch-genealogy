@@ -13,6 +13,9 @@ Push every branch of your family tree as far back as possible using web research
 **Verify**: Count the number of named individuals in Family_Tree.md before and after each iteration. Log the delta.
 
 **Guard**:
+- Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
+- If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If evidence is missing, say that it is missing.
 - Do not fabricate ancestors. Every addition must cite a source.
 - Do not trust user-contributed trees (Geni, Ancestry hints) without corroboration from at least one independent source.
 - Do not modify existing dates or names during expansion; that is the cross-reference audit's job.

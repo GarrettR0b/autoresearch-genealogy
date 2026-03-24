@@ -8,7 +8,7 @@ date: YYYY-MM-DD
 postmark_location: "[City, State/Country]"
 created: YYYY-MM-DD
 tags: [genealogy, surname, transcription, postcard, correspondence]
-ocr_method: "[tesseract | claude_multimodal | manual]"
+ocr_method: "[tesseract | multimodal_ai | manual]"
 ocr_quality: "[good | partial | bad]"
 ---
 
