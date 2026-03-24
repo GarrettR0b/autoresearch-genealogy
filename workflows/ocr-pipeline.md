@@ -155,6 +155,6 @@ Photos do not need OCR but should be cataloged:
 
 - **Batch processing**: Process documents in groups by family line or document type, not one at a time
 - **Save raw OCR output**: Keep the raw text files even after creating vault notes; they are useful for searching
-- **Foreign language documents**: Install Tesseract language packs for the languages in your family's records. For languages Tesseract does not support well (e.g., old Norwegian, Polish with diacritics), use a multimodal AI assistant
-- **Parallel processing with AI**: If your AI tool supports concurrency or agent orchestration, process multiple documents in parallel for large batches
-- **When in doubt, use multimodal OCR**: If Tesseract output is poor, do not over-tune parameters. Send the image to a multimodal AI assistant instead.
+- **Foreign language documents**: Install Tesseract language packs for the languages in your family's records. For languages Tesseract does not support well (e.g., old Norwegian, Polish with diacritics), attach the image in Codex and request a literal transcription using a multimodal pass.
+- **Parallel processing with AI**: In Codex, split large batches into explicit sub-tasks (for example, one branch or one document class per task) and consolidate results into one audit table after each batch.
+- **When in doubt, use multimodal OCR**: If Tesseract output is poor, use Codex with the image attachment and require line-by-line transcription with `[unclear]` markers instead of guessing.
