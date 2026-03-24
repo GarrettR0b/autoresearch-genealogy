@@ -15,6 +15,7 @@ Locate a Find a Grave memorial for every deceased person in your family tree.
 **Guard**:
 - Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
 - If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If evidence is missing, say that it is missing.
 - Do not assume a Find a Grave result is the correct person without verifying name, dates, AND location.
 - If multiple memorials match, document all candidates and flag for human review.
 - Do not create Find a Grave memorials; only search for existing ones.

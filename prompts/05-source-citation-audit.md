@@ -15,6 +15,7 @@ Verify that every person file in your vault cites at least two independent sourc
 **Guard**:
 - Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
 - If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If evidence is missing, say that it is missing.
 - Do not count two entries from the same underlying source as independent (e.g., two Ancestry trees that copied the same data)
 - Do not add speculative sources. Only add sources that actually corroborate existing claims.
 - If no second source can be found, mark the person's confidence as `low` or `stub` in the frontmatter.

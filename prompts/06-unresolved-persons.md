@@ -15,6 +15,7 @@ Identify and attempt to resolve every unnamed or ambiguous person mentioned in y
 **Guard**:
 - Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
 - If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If evidence is missing, say that it is missing.
 - Do not force identifications. If a person cannot be identified with reasonable confidence, leave them as unresolved.
 - Do not create person files for tangentially connected individuals (e.g., a random census neighbor) unless they appear in multiple family documents.
 

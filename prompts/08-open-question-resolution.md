@@ -15,6 +15,7 @@ Systematically attack every open question in your research using web sources.
 **Guard**:
 - Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
 - If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If evidence is missing, say that it is missing.
 - Respect the confidence tiers. Do not mark a question as RESOLVED unless the evidence meets the Strong Signal standard (two independent sources, or one authoritative primary source).
 - Mark as PARTIALLY_RESOLVED when progress is made but the question is not definitively answered.
 - Do not change an answer that is already marked RESOLVED unless new contradicting evidence is found.
