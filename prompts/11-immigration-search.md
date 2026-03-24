@@ -15,6 +15,7 @@ Search for immigration, naturalization, and passenger records for immigrant ance
 **Guard**:
 - Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
 - If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
+- If evidence is missing, say that it is missing.
 - Name spelling on passenger manifests can be extremely different from what the family used in America. Search all plausible variants.
 - Not all immigrants were naturalized. Some remained resident aliens their entire lives.
 - Pre-1820 US passenger lists are sparse to nonexistent.
