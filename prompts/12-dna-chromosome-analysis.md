@@ -13,6 +13,8 @@ Analyze per-chromosome ancestry data to separate parental contributions and map 
 **Verify**: Count entries in `[VAULT_PATH]/chromosome_painting.md` where Copy 1 and Copy 2 have been assigned a likely parental origin.
 
 **Guard**:
+- Do not invent facts. Write only what is explicitly supported by the source text or by a clearly labeled inference.
+- If sources conflict, do not merge them into one narrative. Record each version, cite each source, and mark the issue as unresolved until reconciled.
 - Without a parent's DNA test, copy assignment is PROBABILISTIC, not definitive. Always note uncertainty.
 - Do not over-interpret small segments (<5 cM). They may be noise.
 - The X chromosome has special inheritance: males inherit X only from their mother. Use this as a calibration point.

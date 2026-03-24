@@ -5,7 +5,7 @@ A step-by-step guide to setting up your genealogy research vault and running you
 ## Prerequisites
 
 - A markdown editor (Obsidian recommended, but any editor works)
-- Claude Code installed (or another AI tool that supports web search and file editing)
+- Codex installed (or another AI tool that supports web search, file editing, and structured verification)
 - Whatever you already know about your family (names, dates, locations, even if incomplete)
 - Any physical documents you have (photos, certificates, letters)
 
@@ -89,20 +89,21 @@ Update `Data_Inventory.md` with your scan collections.
 
 ## Step 4: Run the Tree Expansion Prompt
 
-1. Open Claude Code in your genealogy vault directory
-2. Type `/autoresearch` (or paste the prompt contents directly)
-3. Paste the contents of `prompts/01-tree-expansion.md`
-4. Replace all placeholders:
+1. Open Codex in your genealogy vault directory
+2. Paste the contents of `prompts/01-tree-expansion.md` as the task instruction
+3. Replace all placeholders:
    - `[VAULT_PATH]` → the path to your genealogy folder
    - Other placeholders as needed
+4. Add this execution note before you run it: "Do not invent facts. Write only from the source text. If sources conflict, list the conflicting versions and cite each source instead of merging them."
 5. Let it run
 
 The AI will:
 - Read your entire family tree
 - Search the web for every ancestor's parents, siblings, and extended family
-- Add new ancestors to your tree (with sources)
+- Add new ancestors to your tree, with sources
 - Log every search in your Research Log
 - Report how many new individuals were found
+- Surface unresolved conflicts instead of guessing at a single answer
 
 **Expect**: 8 iterations, each adding a few ancestors. After completion, review the changes.
 

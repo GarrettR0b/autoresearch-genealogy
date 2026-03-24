@@ -22,7 +22,7 @@ Polish genealogical records are extensive but access varies significantly by reg
 - **Coverage**: Digitized parish register images from Polish state archives
 - **Cost**: Free
 - **Searchable**: Browse-only (images organized by parish, year, and record type)
-- **AI accessibility**: AI-readable for navigation pages; actual records are scanned images requiring Claude multimodal for reading
+- **AI accessibility**: AI-readable for navigation pages; actual records are scanned images where reading quality often improves with a multimodal AI assistant
 
 ### Metryki.genealodzy.pl
 - **URL**: https://metryki.genealodzy.pl/

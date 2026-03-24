@@ -33,7 +33,7 @@ A real project produced 105 vault files spanning 9 generations across 6 family l
 
 ### Verification
 - **Guarantee accuracy**: AI can and will make mistakes. Hallucinated ancestors, misread dates, and incorrect relationship assignments are all possible. Human review is essential.
-- **Read deteriorated originals**: While Claude's multimodal capabilities are impressive on handwriting, badly faded, damaged, or partially destroyed documents may still need human expert review
+- **Read deteriorated originals**: While multimodal models are strong on handwriting, badly faded, damaged, or partially destroyed documents may still need human expert review
 - **Evaluate source credibility**: AI can apply the source hierarchy mechanically, but judging edge cases (is this published genealogy reliable? is this family legend plausible?) requires domain expertise
 
 ### Physical World

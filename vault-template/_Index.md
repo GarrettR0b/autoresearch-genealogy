@@ -60,7 +60,7 @@ Master index for family history research, genetic ancestry, and digitized archiv
 
 ## Processing Pipeline
 
-OCR toolchain: Tesseract + ocrmypdf + ImageMagick + Claude multimodal
+OCR toolchain: Tesseract + ocrmypdf + ImageMagick + multimodal AI assistant
 
 ### Document Classification
 
@@ -68,5 +68,5 @@ OCR toolchain: Tesseract + ocrmypdf + ImageMagick + Claude multimodal
 |---|---|---|---|
 | photo_only | — | Portraits, group photos, buildings | Catalog only |
 | printed_text | — | Certificates, newspaper clippings, diplomas | ocrmypdf (Tesseract) |
-| handwritten | — | Record books, letters, funeral notes | Claude multimodal |
+| handwritten | — | Record books, letters, funeral notes | multimodal AI assistant |
 | mixed | — | Postcards (front/back), annotated docs | Layered approach |
